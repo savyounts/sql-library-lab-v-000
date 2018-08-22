@@ -20,3 +20,13 @@ INSERT INTO books (title, year, series_id) VALUES ("title", 1990, 2);
 
 /*characters*/
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 2);
+
+/*character_books*/
+INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
