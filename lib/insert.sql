@@ -3,8 +3,8 @@ INSERT INTO series (title, author_id, subgenre_id) VALUES ("title", 1, 1);
 INSERT INTO series (title, author_id, subgenre_id) VALUES ("title2", 1, 1);
 
 /*sub-genre*/
-INSERT INTO sub_genre (name) VALUES ("name");
-INSERT INTO sub_genre (name) VALUES ("name");
+INSERT INTO subgenres (name) VALUES ("name");
+INSERT INTO subgenres (name) VALUES ("name");
 
 /*authors*/
 INSERT INTO authors (name) VALUES ("name");
