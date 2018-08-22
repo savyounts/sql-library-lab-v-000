@@ -29,4 +29,23 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("nam
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("name", "motto", "species", 1, 2);
 
 /*character_books*/
-INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
+/*series 1*/
+INSERT INTO character_books (character_id, book_id) VALUES (1, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 3);
+
+/*series 2 */
+INSERT INTO character_books (character_id, book_id) VALUES (5, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (6, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (7, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (7, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (7, 6);
+INSERT INTO character_books (character_id, book_id) VALUES (8, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (8, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (8, 6);
+
